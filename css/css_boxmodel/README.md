@@ -52,7 +52,7 @@ The CSS Box Model is a fundamental concept that describes how elements are struc
   margin-left: 10px;
 }
 ```
-![Box model Logo](practice\css\assets\css-box-model.png)
+![Box model Logo](../assets/css-box-model.png)
 
 ## Support
 

@@ -9,7 +9,7 @@ In CSS, units are used to measure and define various properties, such as length,
 - One pixel is a single dot on the screen.
 - Commonly used for specifying border widths, padding, and font sizes.
 - Fixed-size units that may not scale well on different screen sizes.
-```bash
+```css
 div {
   width: 200px;
   font-size: 16px;
@@ -20,7 +20,7 @@ div {
 - Represents a percentage of the viewport's width.
 - 1vw is equal to 1% of the viewport width.
 - Useful for creating responsive layouts based on the screen width.
-```bash
+```css
 header {
   width: 50vw; /* 50% of the viewport width */
 }
@@ -30,7 +30,7 @@ header {
 - Represents a percentage of the viewport's height.
 - 1vh is equal to 1% of the viewport height.
 - Useful for creating responsive layouts based on the screen height.
-```bash
+```css
 section {
   height: 80vh; /* 80% of the viewport height */
 }
@@ -39,7 +39,7 @@ section {
 
 - Represents a percentage of the parent element's size.
 - Commonly used for creating fluid and responsive layouts.
-```bash
+```css
 p {
   width: 50%; /* 50% of the parent element's width */
 }
@@ -49,7 +49,7 @@ p {
 - Represents the calculated font-size of the element.
 - Relative to the font-size of the parent element.
 - Can compound, meaning 1.5em is 1.5 times the parent's font-size.
-```bash
+```css
 p {
   font-size: 1.2em; /* 1.2 times the parent element's font-size */
 }
@@ -58,7 +58,7 @@ p {
 
 - Similar to em but relative to the font-size of the root element (html).
 - Useful for maintaining consistent scaling across the entire document.
-```bash
+```css
 body {
   font-size: 16px; /* Set a base font size for the entire document */
 }

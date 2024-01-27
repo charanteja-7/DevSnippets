@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20px 50px 0px;
+    border: 2px solid coral;
+}
+
+.container1{
+ /* overflow: hidden; */
+ /* overflow: scroll; */
+ overflow: auto;
+}
+
+.container2{
+    display: inline-block;
+    margin: 30px;
+    width: 300px;
+    height: 400px;
+    border: 2px solid blueviolet;
+}
+.img1{
+    float: left;
+}

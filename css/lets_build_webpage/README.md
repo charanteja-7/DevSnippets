@@ -8,7 +8,7 @@ You choose your own and get started.
 On the go you will learn a lot of new stuff.
 ## This is how my website looks like!
 
-[Discord Front-end](assets\lets_build_website.mp4)
+[Discord Front-end](assets/lets_build_website.mp4)
 
 ## Support
 

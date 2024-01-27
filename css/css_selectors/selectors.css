@@ -1,0 +1,53 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Type Selector */
+  p {
+    color: blue;
+  }
+  
+  /* Class Selector */
+  .heading {
+    font-size: 24px;
+  }
+  
+  /* ID Selector */
+  #container {
+    border: 2px solid black;
+    padding: 20px;
+  }
+  
+  /* Descendant Selector */
+  div p {
+    font-style: italic;
+  }
+  
+  /* Child Selector */
+  ul > li {
+    list-style-type: square;
+  }
+  
+  /* Adjacent Sibling Selector */
+  h1 + p {
+    font-weight: bold;
+  }
+  
+  /* Attribute Selector */
+  input[type="text"] {
+    width: 200px;
+  }
+  
+  /* Pseudo-class Selector */
+  a:hover {
+    color: red;
+  }
+  
+  /* Pseudo-element Selector */
+  p::first-line {
+    text-transform: uppercase;
+  }
+  

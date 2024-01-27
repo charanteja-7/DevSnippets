@@ -13,7 +13,7 @@ The CSS Box Model is a fundamental concept that describes how elements are struc
 - The space between the content and the element's border.
 - It is specified using the padding property.
 - Padding can be set individually for each side (top, right, bottom, left) or using the shorthand property.
-```bash
+```css
 .box {
   padding: 20px; /* Shorthand for all sides */
   padding-top: 10px;
@@ -28,7 +28,7 @@ The CSS Box Model is a fundamental concept that describes how elements are struc
 - It is specified using the border property.
 - The border can be customized with properties like border-width, border-color, and border-radius.
 - The border-width property can be set individually for each side.
-```bash
+```css
 .box {
   border: 2px solid #333; /* Shorthand for all sides */
   border-top-width: 1px;
@@ -43,7 +43,7 @@ The CSS Box Model is a fundamental concept that describes how elements are struc
 - The space outside the element, separating it from other elements.
 - It is specified using the margin property.
 - Like padding, margin can be set individually for each side or using the shorthand property.
-```bash
+```css
 .box {
   margin: 10px; /* Shorthand for all sides */
   margin-top: 5px;

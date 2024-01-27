@@ -7,7 +7,7 @@ In CSS, colors can be specified using various formats. Here are examples of each
 
 CSS provides a set of predefined color names that you can use.
 
-```bash
+```css
 p {
   color: red;
   background-color: lightblue;
@@ -16,7 +16,7 @@ p {
 ## Hexadecimal Values
 Hex values represent colors in a hexadecimal format (e.g., #RRGGBB)
 
-```bash
+```css
 h1 {
   color: #3498db; /* Blue color */
   background-color: #e74c3c; /* Red color */
@@ -27,7 +27,7 @@ h1 {
 ## RGB Values
 RGB values represent colors using the Red, Green, and Blue color channels.
 
-```bash
+```css
 div {
   color: rgb(255, 0, 0); /* Red color */
   background-color: rgb(0, 255, 0); /* Green color */
@@ -36,7 +36,7 @@ div {
 ## RGBA Values
 Similar to RGB, but with an additional alpha channel for transparency.
 
-```bash
+```css
 a {
   color: rgba(0, 0, 255, 0.5); /* Semi-transparent blue color */
 }
@@ -44,7 +44,7 @@ a {
 ## HSL Values
 HSL values represent colors using the Hue, Saturation, and Lightness.
 
-```bash
+```css
 span {
   color: hsl(120, 100%, 50%); /* Green color */
 }
@@ -52,7 +52,7 @@ span {
 ## HSLA Values
 Similar to HSL, but with an additional alpha channel for transparency.
 
-```bash
+```css
 button {
   background-color: hsla(0, 100%, 50%, 0.3); /* Semi-transparent red color */
 }

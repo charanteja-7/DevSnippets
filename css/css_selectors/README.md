@@ -21,7 +21,7 @@ CSS (Cascading Style Sheets) selectors are patterns used to select and style HTM
 ### 1.Universal Selector (*):
 selects all the elements on the page
 
-```bash
+```css
   * {
   /* styles here */
 }
@@ -29,7 +29,7 @@ selects all the elements on the page
 
 ### 2.Type Selector:
 Selects all instances of a specified HTML element.
-```bash
+```css
   p {
   /* styles here */
 }
@@ -39,7 +39,7 @@ Selects all instances of a specified HTML element.
 ### 3.Class Selector (.):
 Selects all elements with a specific class attribute.
 
-```bash
+```css
  .example {
   /* styles here */
 }
@@ -48,7 +48,7 @@ Selects all elements with a specific class attribute.
 
 ### 4.ID Selector (#):
 
-```bash
+```css
  #uniqueElement {
   /* styles here */
 }
@@ -56,7 +56,7 @@ Selects all elements with a specific class attribute.
 ### 5.Descendant Selector ( ):
 Selects all elements that are descendants of a specified element.
 
-```bash
+```css
 div p {
   /* styles here */
 }
@@ -64,7 +64,7 @@ div p {
 
 ### 6.Child Selector (>):
 Selects all direct children of a specified element.
-```bash
+```css
 ul > li {
   /* styles here */
 }
@@ -72,7 +72,7 @@ ul > li {
 
 ### 7.Adjacent Sibling Selector (+):
 Selects an element that is directly preceded by a specified element
-```bash
+```css
 h2 + p {
   /* styles here */
 }
@@ -80,7 +80,7 @@ h2 + p {
 
 ### 8.Attribute Selector ([]):
 Selects elements based on their attribute values.
-```bash
+```css
 input[type="text"] {
   /* styles here */
 }
@@ -89,7 +89,7 @@ input[type="text"] {
 
 ### 9.Pseudo-class Selector (:):
 Selects elements based on their state or position.
-```bash
+```css
 a:hover {
   /* styles here */
 }
@@ -99,7 +99,7 @@ a:hover {
 ### 10.Pseudo-element Selector (::):
 
 Selects a specific part of an element.
-```bash
+```css
 p::first-line {
   /* styles here */
 }

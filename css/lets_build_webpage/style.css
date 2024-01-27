@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;700&family=Rammetto+One&display=swap');
+
+:root{
+    --primary-font:'Rammetto One', sans-serif;
+    --secondary-font:'Dosis', sans-serif;
+    --primary-color:#23272a;
+    --secondary-color:#5865f2;
+    --header-color:#404eed;
+    --feature-background-secondary:#f6f6f6;
+    --feature-background-primary:#ffffff;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--secondary-font);
+}
+h1{
+    font-size: 4rem;
+    font-family: var(--primary-font);
+}
+h3{
+    font-size: 3rem;
+    font-family: var(--secondary-font);
+    font-weight:600;
+    color: var(--primary-color);
+}
+p{
+    font-size: 1.25rem;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    padding: 15px 22px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+.container{
+    width: 100%;
+    padding: 20px 170px;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 87vh;
+}
+
+.header-images{
+    width: 100%;
+    bottom: 95px;
+    position: absolute;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.header-images img{
+    width: 600px;
+}
+.logo{
+    width: 130px;
+}
+
+.nav-main{
+    justify-content: space-between;
+}
+
+.nav-links{
+    flex-basis: 620px;
+}
+
+.nav-links ul{
+    justify-content: space-around;
+    gap: 10px;
+}
+.nav-link{
+    font-weight: bold;
+    color: white;
+    font-family: var(--secondary-font);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    color: #23272a;
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-weight: bold;
+}
+.hero-section{
+    height: 100%;
+    flex-direction: column;
+    background: url(assets/header-bottom-img.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: var(--header-color);
+}
+
+.hero-section-content{
+    flex-direction: column;
+    color: #ffffff;
+    margin-top: 100px;
+    padding: 20px 420px;
+}
+
+.hero-section-content h1{
+    font-size: 56px;
+    font-family: var(--primary-font);
+}
+
+.hero-section-content p{
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-section-buttons{
+    margin-top: 50px;
+    
+}
+
+.hero-section-buttons .button2{
+    background-color: var(--primary-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+.hero-section-buttons .button1{
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.feature{
+    height: 87vh;
+    padding: 120px 170px;
+}   
+.feature-area{
+    gap: 120px;
+    padding: 0 100px 0 0;
+}
+
+.feature-content p{
+    margin-top: 20px;
+}
+
+.feature1-img{
+    width: 600px;
+    height: auto;
+}
+
+.feature2,.feature4{
+    background-color: var(--feature-background-secondary);
+}
+
+.feature4{
+    height: auto;
+}
+
+.feature4-img{
+    height: 700px;
+}
+.feature4-area{
+    flex-direction: column;
+    text-align: center;
+    padding-left: 160px;
+    gap: 0;
+}
+
+.feature4-area .feature-content h1{
+    font-size: 40px;
+}
+
+.start-journey{
+    background: url(assets/bottom-design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 200px;
+}
+
+.start-journey h1{
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+.start-journey a{
+    background-color: var(--secondary-color);
+}
+
+footer{
+    background-color: var(--primary-color);
+    height: 90vh;
+    color: white;
+    padding: 120px 170px;
+}
+.footer-section{
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 50px;
+    line-height: 30px;
+}
+
+.link1{
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+}
+
+.end-part{
+    margin-top: 50px;
+    padding: 20px 0;
+    justify-content: space-between;
+    border-top: 2px solid var(--secondary-color);
+}
+
+.end-part a{
+    background-color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.social-media{
+    gap: 10px;
+    justify-self: flex-start;
+}

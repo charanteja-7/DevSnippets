@@ -62,10 +62,13 @@ button {
 
 - Use https://coolors.co/ to select awesome color combinations for your webpages.
 - Use ColorZilla extension in chrome to extract any color you like from other webpages.
+
 ## Support
 
-For support, email chukkalacharanteja9@gmail.com
+For assistance, please reach out via email at chukkalacharanteja9@gmail.com.
 
-Follow me on instagram https://www.instagram.com/_charan_teja7/
+Follow me on Instagram: [@_charan_teja7](https://www.instagram.com/_charan_teja7/)
+
+Connect with me on LinkedIn: [Charan Teja](https://www.linkedin.com/in/charanteja177/)
 
 

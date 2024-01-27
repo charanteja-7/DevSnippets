@@ -1,0 +1,54 @@
+/* General styling */
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Box styling */
+  .box {
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #333;
+  }
+  
+  /* Units usage */
+  .px {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .vw {
+    width: 50vw;
+    height: 100px;
+  }
+  
+  .vh {
+    width: 100px;
+    height: 50vh;
+  }
+  
+  .percent {
+    width: 50%;
+    height: 100px;
+  }
+  
+  .em {
+    font-size: 2em;
+  }
+  
+  .rem {
+    font-size: 1.5rem;
+  }
+  

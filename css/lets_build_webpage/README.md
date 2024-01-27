@@ -8,7 +8,7 @@ You choose your own and get started.
 On the go you will learn a lot of new stuff.
 ## This is how my website looks like!
 
-[Discord Front-end](assets/lets_build_website.mp4)
+https://github.com/charanteja-7/practice/assets/149792997/a1dcc4fb-9028-4181-83d5-4800077f8316
 
 ## Support
 

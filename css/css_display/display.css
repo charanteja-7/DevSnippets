@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    
+  }
+  
+  /* Block-level element */
+  .block {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Inline-level element */
+  .inline {
+    display: inline;
+    background-color: #e74c3c;
+    color: #131313;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Inline-block element */
+  .inline-block {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 40px;
+    width: 500px;
+  }
+  
+  /* Hidden element */
+  .hidden {
+    display: none;
+  }
+  
+  /* Flex container and items */
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f39c12;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .flex-item {
+    background-color: #ecf0f1;
+    padding: 10px;
+  }
+  
+  /* Grid container and items */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #9b59b6;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .grid-item {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Inline flex container and items */
+  .inline-flex-container {
+    display: inline-flex;
+    background-color: #e67e22;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Table container, row, and cells */
+  .table {
+    display: table;
+    width: 100%;
+    background-color: #34495e;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .table-row {
+    display: table-row;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border: 1px solid brown;
+  }
+  

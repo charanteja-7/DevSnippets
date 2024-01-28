@@ -173,6 +173,9 @@ a:hover{
     background-color: var(--feature-background-secondary);
 }
 
+.feature2-area{
+    flex-direction: row-reverse;
+}
 .feature4{
     height: auto;
 }

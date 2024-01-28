@@ -8,7 +8,8 @@ You choose your own and get started.
 On the go you will learn a lot of new stuff.
 ## This is how my website looks like!
 
-https://github.com/charanteja-7/practice/assets/149792997/a1dcc4fb-9028-4181-83d5-4800077f8316
+[Website Preview.webm](https://github.com/charanteja-7/practice/assets/149792997/17ea1f1e-a3b8-4aec-a25e-a747e4531cc2)
+
 
 ## Support
 

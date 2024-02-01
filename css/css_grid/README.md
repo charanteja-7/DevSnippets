@@ -106,7 +106,7 @@ CSS Grid Layout is a powerful layout system that allows you to create complex gr
    ```
 ### After learning about grid we can make this cool looking gallery
 
-[gallery preview](../assets/grid.png)
+![gallery preview](../assets/grid.png)
 
 ## Support
 

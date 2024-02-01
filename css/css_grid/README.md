@@ -104,7 +104,7 @@ CSS Grid Layout is a powerful layout system that allows you to create complex gr
      align-items: center; /* Aligns items along the row axis */
    }
    ```
-###After learning about grid we can make this cool looking gallery
+### After learning about grid we can make this cool looking gallery
 
 [gallery preview](../assets/grid.png)
 

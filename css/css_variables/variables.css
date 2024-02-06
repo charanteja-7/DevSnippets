@@ -1,0 +1,40 @@
+:root{
+    --primary-color : hsl(0, 2%, 18%);
+    --secondary-color : hsl(164, 83%, 49%);
+    --font-color : hsl(0, 0%, 100%);
+    --box-padding : 5rem;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+.container{
+    padding: var(--box-padding);
+}
+
+.box{
+    padding: 30px;
+    background-color: var(--secondary-color);
+    border-radius: var(--box-padding);
+    margin-top: 20px;
+}
+
+.mode-button{
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background: linear-gradient(to top right ,rgb(12, 141, 221),rgb(164, 20, 164));
+    cursor: pointer;
+}
+.mode-button:active{
+    transform: scale(0.95);
+}

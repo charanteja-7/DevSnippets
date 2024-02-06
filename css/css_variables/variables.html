@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="variables.css">
+  <title>CSS Variables Demo</title>
+</head>
+<body>
+    <h1 class="header">CSS Variables Demo</h1>
+    <button class="mode-button">Dark mode</button>
+  <div class="container">
+    <div class="box">
+        <h2>box1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis aut, non consectetur impedit eius! Quisquam, commodi quibusdam debitis consectetur ipsa natus praesentium pariatur exercitationem delectus eos facere excepturi officia?</p>
+    </div>
+    <div class="box">
+        <h2>box2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis aut, non consectetur impedit eius! Quisquam, commodi quibusdam debitis consectetur ipsa natus praesentium pariatur exercitationem delectus eos facere excepturi officia?</p>
+    </div>
+    <div class="box">
+        <h2>box3</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis aut, non consectetur impedit eius! Quisquam, commodi quibusdam debitis consectetur ipsa natus praesentium pariatur exercitationem delectus eos facere excepturi officia?</p>
+    </div>
+    <div class="box">
+        <h2>box4</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas omnis aut, non consectetur impedit eius! Quisquam, commodi quibusdam debitis consectetur ipsa natus praesentium pariatur exercitationem delectus eos facere excepturi officia?</p>
+    </div>
+  </div>
+
+</body>
+<script>
+    let button = document.querySelector('.mode-button');
+    let body =  document.querySelector('body')
+    button.addEventListener('click',()=>{
+       
+        if (button.innerHTML === 'Light mode') {
+                button.innerHTML = 'Dark mode';
+                body.style.setProperty('background-color','');
+            } else {
+                button.innerHTML = 'Light mode';
+                body.style.setProperty('background-color','var(--primary-color)');
+            }
+    })
+</script>
+</html>

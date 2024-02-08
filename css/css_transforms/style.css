@@ -1,0 +1,32 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    margin: 80px auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(0.5,2); */
+    /* transform: skew(20deg,40deg); */
+    /* transform: translate(50px,50px); */
+    /* transform: rotate(20deg); */
+    /* transform: rotate(180deg); */
+    /* transform: rotate(180deg) scale(0.5,1.2) skew(20deg); */
+    /* transform: rotate(45deg);
+    transform-origin: top left; */
+    /* transform-origin: 50% 50%; */
+    transition: 1.5s ease;
+}
+
+.box:hover{
+    transform: rotate(360deg);
+}

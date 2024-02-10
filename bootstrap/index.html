@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Container,Container-fluid</h1>
+    <div class="container-fluid">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis corrupti sequi id natus vel iusto vitae fugiat mollitia maxime assumenda perferendis quod ratione itaque quam iste magnam unde deserunt explicabo sunt, non at obcaecati cum. Quibusdam natus obcaecati distinctio atque nemo? Facilis aperiam voluptatum nam facere amet similique rem quo ratione dolorem? Nam nostrum ipsa ad, corrupti harum in deleniti voluptatibus enim animi optio exercitationem odit accusantium quas obcaecati aliquam beatae modi repudiandae id veritatis, laudantium distinctio voluptatem reiciendis. Nihil, tenetur hic doloremque omnis cumque accusantium possimus adipisci consequuntur in, unde inventore accusamus voluptatem ut laborum. Corporis, enim nisi. Alias.
+    </div>
+    <hr>
+    <hr>
+    <!-- container to demontrate how to use row and col -->
+    <h1>Rows and Cols</h1>
+    <div class="container">
+        <div class="row gy-3">
+            <div class="col-10">
+                <div class="box">col-10</div>
+            </div>
+            <div class="col-auto">
+                <div class="box">text</div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+  <!-- two cols which will shows how to use break points -->
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-4">
+                <div class="box">I will change with screen size</div>
+            </div>
+            <div class="col-4">
+                <div class="box">col-4</div>
+            </div>
+        </div>
+    </div>
+<!-- single col which takes entire screen size -->
+   <div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="box">I took entire screen</div>
+        </div>
+    </div>
+   </div>
+   <!-- single column with offset-3 -->
+   <div class="container">
+    <div class="row">
+        <div class="col offset-3">
+            <div class="box">offset-3</div>
+        </div>
+    </div>
+   </div>
+   
+   <!-- simple container tells us how to use row -> one row 2 cols in md and 4 cols above lg for this example with gap of 1(gy-1)-->
+   <div class="container">
+    <div class="row row-cols-2 gy-1 row-cols-lg-4">
+        <div class="col ">
+            <div class="box"></div>
+        </div>
+        <div class="col ">
+            <div class="box"></div>
+        </div>
+        <div class="col ">
+            <div class="box"></div>
+        </div>
+        <div class="col ">
+            <div class="box"></div>
+        </div>
+        <div class="col ">
+            <div class="box"></div>
+        </div>
+        <div class="col ">
+            <div class="box"></div>
+        </div>
+    </div>
+    
+
+    <!-- lets learn row inside a column -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                    <div class="box">col-1</div>
+                </div>
+                <div class="col">
+                    <div class="box">col-2</div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="box"></div>
+            </div>
+        </div>
+    </div>
+<hr>
+<hr>
+<!-- lets learn about tables in bootstrap -->
+<h1>Table</h1>
+<div class="container">
+    <div class="table-responsive-md ">
+
+        <table class="table table-striped text-center table-hover table-bordered table-sm ">
+    </div>
+        <thead>
+            <tr>
+                <th>w.e.f 05-02-2024</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 11:10</th>
+                <th>11:10 - 12:10</th>
+                <th>12:55 - 13:55</th>
+                <th>13:55 - 14:55</th>
+                <th>14:55 - 15:55</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>MON</td>
+              <td>PE-1</td>
+              <td>PSTP</td>
+              <td>AWT</td>
+              <td></td>
+              <td  colspan="3">PSTP-LAB(PG-121)</td>
+            </tr>
+            <tr>
+              <td>TUE</td>
+              <td>DAA</td>
+              <td>CN</td>
+              <td>PE-1</td>
+              <td></td>
+              <td colspan="3">QA</td>
+            </tr>
+            <tr>
+              <td>WED</td>
+              <td>PSTP</td>
+              <td>CN</td>
+              <td>DAA</td>
+              <td></td>
+              <td>AWT</td>
+              <td>MENTORING</td>
+              <td>AOE</td>
+            </tr>
+            <tr>
+              <td>THU</td>
+              <td>DAA</td>
+              <td>PSTP</td>
+              <td>CN</td>
+              <td></td>
+              <td colspan="3">MAD-LAB(PG-211)</td>
+            </tr>
+            <tr>
+              <td>THU</td>
+              <td>AWT</td>
+              <td>PE-1</td>
+              <td>EIKT</td>
+              <td></td>
+              <td colspan="3">AWT-LAB(PG-211)</td>
+            </tr>
+            <tr>
+              <td>SAT</td>
+              <td colspan="2">AOE</td>
+              <td>LIBRARY</td>
+              <td></td>
+              <td>MINOR-DSA</td>
+              <td colspan="2" >LIBRARY</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr>
+<hr>
+
+<!-- forms in bootstrap -->
+<h1>Forms</h1>
+<div class="container">
+    <form>
+        <h4>general input box with a label</h4>
+        <label for="email" class="form-label">Email</label>
+       <input type="email" id="email" class="form-control form-control-lg" >
+       <!-- disabled -->
+       <h4>disabled</h4>
+       <input type="email" id="email" class="form-control form-control-lg" disabled >
+       <!-- readonly -->
+       <h4>readonly</h4>
+       <input type="email" id="email" class="form-control form-control-lg" value="charanteja9@gmail.com" readonly >
+      <!-- this is a plaintext  -->
+       <input type="email" id="email" class="form-control form-control-plaintext" value="form control plain text (no border)" >
+       <!-- button -->
+       <button class="btn btn-primary mt-1">Submit</button>
+       <!-- color picker (use form-control-color additional class to look good)-->
+       <h4>color</h4>
+       <input type="color" id="email" class="form-control form-control-color" >
+       <!-- form range(use form-range) -->
+       <h4>range</h4>
+       <input type="range" id="email" class="form-range" >
+       <!-- select input (lg ,sm used to handle the size)-->
+        <h4>select</h4>
+       <select class="form-select form-select-lg">
+        <option value="hi">hi</option>
+        <option value="hello">hello</option>
+       </select>
+       <!-- lets see checkbox -->
+       <h4>checkbox</h4>
+       <div class="form-check">
+           <input type="checkbox" id= "check" class="form-check-input">
+           <label for="check" class="form-check-label">Email</label>
+       </div>
+       <!-- swith or toggle aslo learning inline -->
+       <h4>toggle and inline check</h4>
+       <div class="form-check form-switch form-check-inline">
+           <input type="checkbox" id= "check1" class="form-check-input">
+           <label for="check1" class="form-check-label">Toggle</label>
+       </div>
+       <div class="form-check form-switch form-check-inline">
+           <input type="checkbox" id= "check1" class="form-check-input">
+           <label for="check1" class="form-check-label">Inline</label>
+       </div>
+       <!-- input groups -->
+       <h4>Input groups</h4>
+       <label for="text">Text</label>
+       <input type="text"  id="text" class="form-control">
+       <!-- groups  -->
+       <label for="tex1">group</label>
+       <div class="input-group">
+           <input type="text1"  id="text" value="left" class="form-control">
+           <input type="text1"  id="text" value="right" class="form-control ">
+       </div>
+       <label for="text3">Amount</label>
+       <div class="input-group">
+        <div class="input-group-text">$</div>
+        <input type="number"  id="text"  class="form-control ">
+       </div>
+       <label for="text3">Amount</label>
+       <div class="input-group">
+        <div class="input-group-text">$</div>
+        <input type="number"  id="text"  class="form-control ">
+        <div class="input-group-text bg-primary">+</div>   <!--we can also use button-->
+    </div>
+    <h4>Floating labels</h4>
+    <!-- placeholder is necessary  -->
+    <div class="form-floating">
+        <input type="email"  id="1" class="form-control" placeholder="enter your email">
+        <label for="1">Email</label>
+    </div>
+    <h4>valid and invalid</h4>
+    <div class="form-floating">
+        <input type="email"  id="1" class="form-control is-invalid " placeholder="enter your email">
+        <label for="1">Email</label>
+    </div>
+    <div class="form-floating">
+        <input type="email"  id="1" class="form-control is-valid " placeholder="enter your email">
+        <label for="1">Email</label>
+    </div>
+    </form>
+</div>
+
+<!-- leaning six most important components in bootstrap  -->
+<h1>Components</h1>
+<div class="container">
+    <h4>buttons</h4>
+    <button class="btn btn-primary">Button</button>
+    <button class="btn btn-primary btn-lg">Button large</button>
+    <button class="btn btn-outline-danger">outline</button>
+    <button class="btn btn-primary" disabled>disabled</button>
+    <button class="btn btn-primary btn-link">Button-link</button>
+    <button class="btn btn-outline-primary" data-bs-toggle="button">Toggle-active</button>
+    <!-- area-pressed tell the person that they clicked it(for feel) -->
+    <button class="btn btn-outline-primary" data-bs-toggle="button" aria-pressed="true">Toggle-active</button>
+    <a href="#" class="btn btn-primary">link</a>
+    <!-- grouping the buttons -->
+    <h4>buttons group</h4>
+    <div class="btn-group btn-group-lg">
+        <button class="btn btn-primary">test</button>
+        <button class="btn btn-primary">test</button>
+        <button class="btn btn-primary">test</button>
+    </div>
+    <div class="btn-group-vertical">
+        <button class="btn btn-primary">test</button>
+        <button class="btn btn-primary">test</button>
+        <button class="btn btn-primary">test</button>
+    </div>
+    <!-- alerts -->
+    <h4>alerts</h4>
+    <div class="alert alert-primary">Alert</div>
+    <div class="alert alert-danger alert-dismissible fade show" ><h2>Alert</h2>
+        <a href="#" class="alert-link">Go here to find out more</a>
+        <button class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+    </div>
+    <!-- now we will learn card component -->
+    <h4>Card Component</h4>
+    <h5>1.Top and bottom image</h5>
+    <div class="card" style="width: 300px;">
+        <img src="https://via.placeholder.com/50" alt="" class="card-img-top">
+        <div class="card-body">
+            <h2 class="card-title">Title</h2>
+            <span class="card-sub-title">Sub-title</span>
+            <div class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, odio?
+            </div>
+        </div>
+        <img src="https://via.placeholder.com/50" alt="" class="card-img-bottom">
+    </div>
+    <h5>2.overlay the content on image</h5>
+    <div class="card" style="width: 300px;">
+        <img src="https://via.placeholder.com/50" alt="" class="card-img">
+        <div class="card-body card-img-overlay" style="font-size:20px;">
+            <h2 class="card-title">Title</h2>
+            <span class="card-sub-title">Sub-title</span>
+            <div class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, odio?
+            </div>
+        </div>
+    </div>
+    <h5>3.card header and footer</h5>
+    <div class="card" style="width: 300px;">
+        <h3 class="card-header">Card Header</h3>
+        <div class="card-body">
+            <h2 class="card-title">Title</h2>
+            <span class="card-sub-title">Sub-title</span>
+            <div class="card-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, odio?
+            </div>
+        </div>
+        <div class="card-footer">Card Footer</div>
+    </div>
+    <h4>card group</h4>
+    <div class="card-group">
+        <div class="card" style="width: 300px;">
+            <h3 class="card-header">Card Header</h3>
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <span class="card-sub-title">Sub-title</span>
+                <div class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, odio?
+                </div>
+            </div>
+            <div class="card-footer">Card Footer</div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <h3 class="card-header">Card Header</h3>
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <span class="card-sub-title">Sub-title</span>
+                <div class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, odio?
+                </div>
+            </div>
+            <div class="card-footer">Card Footer</div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <h3 class="card-header">Card Header</h3>
+            <div class="card-body">
+                <h2 class="card-title">Title</h2>
+                <span class="card-sub-title">Sub-title</span>
+                <div class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, odio?
+                </div>
+            </div>
+            <div class="card-footer">Card Footer</div>
+        </div>
+    </div>
+</div>
+
+
+<!-- remove test later -->
+<div class="test"></div>
+</body>
+</html>

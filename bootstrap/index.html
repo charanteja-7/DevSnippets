@@ -84,7 +84,7 @@
         </div>
     </div>
     
-
+   </div>
     <!-- lets learn row inside a column -->
     <div class="container">
         <div class="row">
@@ -177,6 +177,7 @@
             </tr>
         </tbody>
     </table>
+</div>
 </div>
 <hr>
 <hr>
@@ -334,7 +335,7 @@
         </div>
         <div class="card-footer">Card Footer</div>
     </div>
-    <h4>card group</h4>
+    <h4>Card group</h4>
     <div class="card-group">
         <div class="card" style="width: 300px;">
             <h3 class="card-header">Card Header</h3>
@@ -370,9 +371,134 @@
             <div class="card-footer">Card Footer</div>
         </div>
     </div>
+    <!-- learining about modal -->
+    <!-- we can also use modal-dialog-scrollable and modal-dialog-center also  -->
+    <h4>Model</h4>
+    <button class="btn btn-primary"  data-bs-toggle="modal" data-bs-target="#modal">Open Modal</button>
+    <div class="modal fade" id="modal">
+        <div class="modal-dialog" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1>Header</h1>
+                    <button class="btn btn-close" data-bs-dismiss="modal" data-bs-target="#modal"></button>
+                </div>
+                <div class="modal-body">Body</div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<h4>Navbar Component</h4>
+<!-- navebar expand  -->
+<h5>Type-1 expanded</h5>
+<nav class="navbar navbar-expand navbar-dark bg-dark" >
+    <div class="container m-0">
+        <a href="#" class="navbar-brand" >Brand</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h5>Type-2 collapsed with screen size</h5>
+<!-- navbar collapse when below md screen size -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <div class="container m-0">
+        <a href="#" class="navbar-brand">Brand</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<h5>Type-3 toggle</h5>
+<!-- navbar toggle based on screen size screen size -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <div class="container m-0">
+        <a href="#" class="navbar-brand">Brand</a>
+        <!-- <button class="navbar-toggler navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand-Navigation"></button> -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand-Navigation"><span class="navbar-toggler-icon"></span></button>
+       <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+            </li>
+        </ul>
+       </div>
+    </div>
+</nav>
+<!-- now lets learn something called utility -->
+<div class="container">
 
+    <h1> Collapse Utility</h1>
+    <button class="btn btn-primary"  data-bs-toggle="collapse" data-bs-target="#row" aria-expanded="false">Toggle</button>
+
+    <div class="row collapse" id="row">
+        <div class="col">
+            <div class="box"></div>
+        </div>
+    </div>
+
+    <div class="row collapse" id="row">
+        <div class="col">
+            <div class="box"></div>
+        </div>
+    </div>
+
+</div>
+<!-- flex-box  -->
+<h1>Flex box</h1>
+<div class="container">
+    <div class="d-flex justify-content-end align-items-center">
+        <div class="box" style="width: 100px;"></div>
+        <div class="box" style="width: 100px;"></div>
+        <div class="box" style="width: 100px;"></div>
+        <div class="box" style="width: 100px;"></div>
+    </div> 
+</div>
+<h1>Some useful classes</h1>
+<ul>
+    <li>opacity</li>
+    <li>link-danger</li>
+    <li>text-bg-dark</li>
+    <li>text-bg-dark</li>
+    <li>vstack</li>
+    <li>hstack</li>
+    <li>gap</li>
+    <li>border</li>
+    <li>border-primary(color)</li>
+    <li>border-3(border-size)</li>
+    <li>rounded</li>
+    <li>border-top/left/right/bottom</li>
+    <li>d-flex,d-lg-flex</li>
+    <li>d-grid ,d-none,d-lg-none</li>
+    <li>p-5(padding)/pt/pb/p-lg-2/pe ...</li>
+    <li>m/m-auto/mt/mb</li>
+
+</ul>
 <!-- remove test later -->
 <div class="test"></div>
 </body>

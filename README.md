@@ -1,4 +1,4 @@
-# practice
+# Table of Contents
 
 
 ## css
@@ -12,6 +12,7 @@
 `8.css_text_font`
 `9.css_units`
 `10.css_transform`
+`11.css_animations`
 `Building a signup page`
 `Building a webpage`
 `gallery using grid`

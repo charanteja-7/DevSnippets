@@ -16,10 +16,10 @@
 `Building a signup page`
 `Building a webpage`
 `gallery using grid`
-## javascript
-## java
-## react
-## python
+## Javascript
+## Java
+## React
+## Python
 
 
 ## Support

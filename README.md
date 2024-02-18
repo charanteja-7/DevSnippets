@@ -18,7 +18,7 @@
 `gallery using grid`
 ## Javascript
 ## Java
-## React
+## Bootstrap
 ## Python
 
 

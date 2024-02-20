@@ -1,7 +1,7 @@
 # Table of Contents
 
 
-## css
+## CSS
 `1.css_colors`
 `2.css_box_model`
 `3.css_display`
@@ -17,7 +17,6 @@
 `Building a webpage`
 `gallery using grid`
 ## Javascript
-## Java
 ## Bootstrap
 ## Python
 

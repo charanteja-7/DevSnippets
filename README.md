@@ -19,7 +19,17 @@
 ## Javascript
 ## Bootstrap
 ## Python
-
+`1.variables`
+`2.datatypes`
+`3.casting`
+`4.operators`
+`5.if_else`
+`6.loops`
+`7.lists`
+`8.tuple`
+`9.sets`
+`10.dictionaries`
+`11.strings`
 
 ## Support
 

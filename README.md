@@ -17,6 +17,7 @@
 `Building a webpage`
 `gallery using grid`
 ## Javascript
+## Javascript_ES6
 ## Bootstrap
 ## Python
 `1.variables`

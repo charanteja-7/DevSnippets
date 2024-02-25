@@ -18,6 +18,9 @@
 `gallery using grid`
 ## Javascript
 ## Javascript_ES6
+`1.const`
+`2.let`
+`3.arrowfunction`
 ## Bootstrap
 ## Python
 `1.variables`

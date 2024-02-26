@@ -66,3 +66,19 @@ function6(5, 6, c = 7, d = 8)
 x = lambda a : a*a
 
 print(x(5))
+
+"""output
+This is a fuction
+75
+14
+4334
+('apple', 'banana', 'cherry')
+Names are :jack jhon james
+His last name is watson
+10 30
+10 50
+10
+20
+30
+26
+25"""

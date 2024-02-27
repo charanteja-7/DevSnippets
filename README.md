@@ -21,6 +21,8 @@
 `1.const`
 `2.let`
 `3.arrowfunction`
+`4_template_literals`
+`5_destructuring`
 ## Bootstrap
 ## Python
 `1.variables`

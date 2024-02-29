@@ -23,6 +23,8 @@
 `3.arrowfunction`
 `4_template_literals`
 `5_destructuring`
+`6.default_parameters`
+`7.spread_rest`
 ## Bootstrap
 ## Python
 `1.variables`

@@ -26,6 +26,7 @@
 `6.default_parameters`
 `7.spread_rest`
 `8.for_of_loop`
+`9_promises`
 ## Bootstrap
 ## Python
 `1.variables`

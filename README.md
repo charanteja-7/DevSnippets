@@ -16,7 +16,6 @@
 `Building a signup page`
 `Building a webpage`
 `gallery using grid`
-## Javascript
 ## Javascript_ES6
 `1.const`
 `2.let`

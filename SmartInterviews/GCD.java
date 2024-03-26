@@ -9,7 +9,7 @@ public class Main
             a = b;
             b = temp;
         }
-        return gcd(a-b,b);
+        return gcd(a%b,b);
     }
 	public static void main(String[] args) {
 		System.out.println(gcd(24,36));

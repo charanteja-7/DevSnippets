@@ -26,7 +26,6 @@
 `7.spread_rest`
 `8.for_of_loop`
 `9_promises`
-## Bootstrap
 ## Python
 `1.variables`
 `2.datatypes`
@@ -40,6 +39,9 @@
 `10.dictionaries`
 `11.strings`
 `lab programs`
+## Bootstrap
+## Hackerrank
+## SmartInterviews
 ## Support
 
 For assistance, please reach out via email at chukkalacharanteja9@gmail.com.
